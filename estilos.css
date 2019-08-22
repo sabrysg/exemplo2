@@ -1,0 +1,65 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+}
+nav ul {
+    background-color: #ededed;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+padding: 10px;
+display: inline-block;
+background-color: #ededed;
+color: #333;
+text-decoration: none;
+border-bottom: 3px solid #ededed;
+}
+
+/* :hover qual o estilo a ser aplicado quando passar o mouse sobre o elemento */
+nav ul li a:hover {
+    background-color: #d6d6d6;
+    color:#d6d6d6;
+    border-bottom: 3px solid #f55105
+}
+article,header {
+    margin: 3px;
+}
+footer p {
+    text-align: center;
+    font-style: italic;
+    color: #f55105;
+    clear:both;
+}
+img {
+    width: 800px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+th.td {
+    padding: 10px;
+}
+thead tr {
+    border-bottom: solid 5px #f55105
+}
+tbody tr:hover {
+    background-color: #f55105;
+}
+tfoot {
+    background-color: #ededed;
+    color: #f55105;
+    font-weight: bold;
+    font-style: initial;
+}
